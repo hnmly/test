@@ -1,7 +1,10 @@
 version: 0.2
 
 env:
-  variables: {}
+  variables:
+    REGION: "ap-northeast-2"
+    ACCOUNT: "640107381732"
+    REPOSITORY: "user"
 
 phases:
   pre_build:
